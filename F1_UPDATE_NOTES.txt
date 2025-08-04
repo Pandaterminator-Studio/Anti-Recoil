@@ -1,0 +1,38 @@
+F1 KEY UPDATE - Anti-Recoil Script
+=====================================
+
+WHAT CHANGED:
+- Changed activation key from NumLock to F1
+- Updated both GUI and Console versions
+- F1 is now the default selection in GUI dropdown
+
+WHY F1:
+- User doesn't have NumLock on keyboard
+- F1 is universally available on all keyboards
+- Easy to reach and toggle during gameplay
+
+UPDATED FILES:
+1. AntiRecoil-Simple-GUI.ps1
+   - Default activation key changed to F1 (0x70)
+   - GUI dropdown now shows F1 as default selection
+   - All references updated from NumLock to F1
+
+2. AntiRecoil-PowerShell.ps1
+   - Added VK_F1 constant and IsF1On() function
+   - Updated status display to show F1 status
+   - Updated control instructions
+   - Main logic now checks F1 instead of NumLock
+
+HOW TO USE:
+1. Run QUICK_START.bat
+2. Choose GUI (1) or Console (2) version
+3. Press F1 to toggle the anti-recoil ON/OFF
+4. When ON, hold left mouse button to fire with recoil compensation
+
+CONTROLS:
+- F1: Toggle script ON/OFF
+- CapsLock: Toggle Auto-ADS mode  
+- Mouse Button 5: Switch weapon profiles
+- Left Click: Fire with recoil compensation
+
+The script will now activate when you press F1 instead of NumLock!
